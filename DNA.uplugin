@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "DNA",
+	"Description": "",
+	"Category": "Gameplay",
+	"CreatedBy": "Helical Games",
+	"CreatedByURL": "https://www.helicalgames.net",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:support@helicalgames.net",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "DNA",
+			"Type": "Developer",
+			"LoadingPhase": "Default"
+		}
+	]
+}
