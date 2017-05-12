@@ -1,23 +1,58 @@
 {
-	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
-	"FriendlyName": "DNA",
-	"Description": "",
-	"Category": "Gameplay",
-	"CreatedBy": "Helical Games",
-	"CreatedByURL": "https://www.helicalgames.net",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "mailto:support@helicalgames.net",
-	"CanContainContent": true,
-	"IsBetaVersion": true,
-	"Installed": false,
-	"Modules": [
-		{
-			"Name": "DNA",
-			"Type": "Developer",
-			"LoadingPhase": "Default"
-		}
-	]
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1",
+  "FriendlyName": "DNA",
+  "Description": " Adds GameplayEffect and GameplayAbility classes to handle complicated gameplay interactions.",
+  "Category": "Gameplay",
+  "CreatedBy": "Helical Games",
+  "CreatedByURL": "https://www.helicalgames.net",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "mailto:support@helicalgames.net",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "DNA",
+      "Type": "Developer",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "DNAAbilities",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "DNAAbilitiesEditor",
+      "Type": "Developer",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "DNATasks",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "DNATasksEditor",
+      "Type": "Developer",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "DNATags",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "DNATagsEditor",
+      "Type": "Developer",
+      "LoadingPhase": "PreDefault"
+    },
+    {
+      "Name": "DNADebugger",
+      "Type": "Developer",
+      "LoadingPhase": "PreDefault"
+    }
+  ]
 }
