@@ -1,0 +1,34 @@
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+
+#include "Core.h"
+#include "AbilitySystemStats.h"
+
+DEFINE_STAT(STAT_DNAEffectsGetOwnedTags);
+DEFINE_STAT(STAT_DNAEffectsHasAllTags);
+DEFINE_STAT(STAT_DNAEffectsHasAnyTag);
+DEFINE_STAT(STAT_DNAEffectsTick);
+DEFINE_STAT(STAT_DNAEffectsCanApplyAttributeModifiers);
+DEFINE_STAT(STAT_DNAEffectsGetActiveEffectsTimeRemaining);
+DEFINE_STAT(STAT_DNAEffectsGetActiveEffectsDuration);
+DEFINE_STAT(STAT_DNAEffectsGetActiveEffectsTimeRemainingAndDuration);
+DEFINE_STAT(STAT_DNAEffectsGetActiveEffects);
+DEFINE_STAT(STAT_DNAEffectsGetAllActiveEffectHandles);
+DEFINE_STAT(STAT_DNAEffectsModifyActiveEffectStartTime);
+DEFINE_STAT(STAT_DNAAbilityGetCooldownTimeRemaining);
+DEFINE_STAT(STAT_DNAAbilityGetCooldownTimeRemainingAndDuration);
+DEFINE_STAT(STAT_RemoveActiveDNAEffect);
+DEFINE_STAT(STAT_ApplyDNAEffectSpec);
+DEFINE_STAT(STAT_GetDNACueFunction);
+DEFINE_STAT(STAT_GetOutgoingSpec);
+DEFINE_STAT(STAT_InitAttributeSetDefaults);
+DEFINE_STAT(STAT_TickDNAAbilityTasks);
+DEFINE_STAT(STAT_FindAbilitySpecFromHandle);
+DEFINE_STAT(STAT_AggregatorEvaluate);
+DEFINE_STAT(STAT_HasApplicationImmunityToSpec);
+DEFINE_STAT(STAT_HasMatchingDNATag);
+DEFINE_STAT(STAT_HandleDNACueNotifyStatic);
+DEFINE_STAT(STAT_HandleDNACueNotifyActor);
+DEFINE_STAT(STAT_ApplyDNAEffectToTarget);
+DEFINE_STAT(STAT_OnActiveDNAEffectAdded);
+DEFINE_STAT(STAT_OnActiveDNAEffectRemoved);
+DEFINE_STAT(STAT_DNACueInterface_HandleDNACue);
